@@ -1,0 +1,97 @@
+#sidebar{
+    height: 100vh;
+    z-index: 1100!important;
+    top: 0;
+    position: -webkit-sticky;
+    position: sticky;
+    width: 5vw;
+    max-width: 72px;
+    flex-direction: row !important;
+    display: flex !important;
+}
+#sidebar .partialSidebar{
+    box-shadow: 0 4px 4px hsl(0deg 0% 50% / 32%);
+    position: relative;
+    background-color: #fff;
+    border-right: 1px solid rgba(0,0,0,.05);
+    max-width: 72px;
+    z-index: 2 !important;
+}
+#sidebar .partailSideNav .pSide {
+    height: 100%;
+    background-color: #f5f7fc;
+    width: 5vw;
+    max-width: 72px;
+    box-shadow: 1px 0 0 #dfe1e6;
+}
+img.logo {
+    padding: 16px 20px;
+    box-shadow: 0 1px 0 #dfe1e6;
+    cursor: pointer;
+    text-align: center !important;
+    text-transform: uppercase !important;
+}
+img.arrow{
+    padding-left: 20px;
+}
+#sidebar .partailSideNav .navPartial {
+    position: absolute;
+    top: 83px;
+    height: 75.3%;
+    width: 5vw;
+    max-width: 72px;
+    text-align: center;
+    overflow-y: auto;
+    display: flex !important;
+    flex-direction: column !important;
+}
+.middle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px !important;
+}
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: initial;
+}
+.active{
+    border-radius: 8px;
+    transition: .3s ease;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    margin-bottom: 6px !important;
+    margin-top: 6px !important;
+}
+.line{
+    margin-bottom: 8px !important;
+    margin-top: 8px !important;
+    border: 0.5px solid rgb(214, 218, 233);
+}
+.userProfileIcon{
+    position: absolute;
+    bottom: 0;
+    padding: 12px 20px;
+    box-shadow: 0 -1px 0 #dfe1e6;
+    cursor: pointer;
+    text-transform: uppercase!important;
+    text-align: center!important;
+}
+.profile{
+    border-radius: 40px !important;
+    font-size: 14px !important;
+    margin: auto !important;
+    width: 28px; 
+    height: 28px; 
+    background-color: rgb(47, 128, 237); 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    color: rgb(255, 255, 255); 
+    font-size: 16px; 
+    text-transform: uppercase;
+}

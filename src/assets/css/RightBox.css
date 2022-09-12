@@ -1,0 +1,152 @@
+
+
+@font-face {
+    font-family: 'DMSans-Medium';
+    src: url(../fonts/dm-sans-cufonfonts/DMSans-Medium.ttf);
+  }
+
+#dash #graph {
+    height: calc(100vh - 72px);
+    overflow-y: scroll;
+    padding: 0 80px 16px;
+    background-color: #fcfdfd;
+}
+#dash #graph .home{
+    width: 100%;
+    border: 0.5px solid #d6dae9;
+    box-shadow: 0 4px 8px hsl(0deg 0% 45% / 8%);
+    border-radius: 8px;
+    height: 116px;
+    justify-content: space-between;
+    margin-bottom: 40px!important;
+    padding-left: 24px!important;
+    margin-top: 16px!important;
+    display: flex!important;
+}
+.boxing{
+    border-right: 0.5px solid #d6dae9;
+    width: 100% !important;
+    margin-right: 24px!important;
+    margin-bottom: 24px!important;
+    margin-top: 24px!important;
+    display: flex!important;
+}
+@font-face{
+    font-family: Inter-Light;
+    src: url(../fonts/inter/Inter-Light.otf);
+}
+.portion-heading{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: "Inter-Light";
+    font-style: normal;
+    letter-spacing: .1px;
+    color: #2e3039!important;
+}
+.portion-number{
+    font-weight: 700;
+    font-size: 24px;
+    font-family: "DMSans-Medium",sans-serif;
+    line-height: 32px;
+    letter-spacing: .1px;
+    color: #141519!important;
+    margin-top: 16px!important;
+}
+.bar{
+    width: 700px;
+    text-align: center;
+    align-items: center;
+    overflow-x: hidden;
+    padding-left: 155px;
+    margin-bottom: 30px;
+}
+.line-graph{
+    width: 700px;
+    text-align: center;
+    align-items: center;
+    overflow-x: hidden;
+    padding-left: 155px;
+    margin-bottom: 30px;
+}
+.pie-graph{
+    margin-top: 40px;
+    width: 400px;
+    text-align: center;
+    align-items: center;
+    overflow-x: hidden;
+    padding-left: 275px;
+    margin-bottom: 30px;
+}
+.revenueGraph .pointGraph .memberGraph{
+    border: 1px solid #dee2e6!important;
+    padding-top: 24px!important;
+    margin-bottom: 40px!important;
+    border-radius: 8px;
+    padding: 24px;
+    box-shadow: 0 4px 8pxhsla(0,0%,44.7%,.08);
+    min-height: 380px;
+    position: relative;
+}
+.subtitle{
+    justify-content: space-between;
+    padding-right: 16px!important;
+    padding-left: 16px!important;
+    display: flex!important;
+}
+.subtitle-2{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #1d3b56;
+    opacity: .6;
+    white-space: pre-line;
+    opacity: 1!important;
+    color: #27323f!important;
+    font-weight: 500!important;
+    font-size: 20px!important;
+}
+.total-revenue{
+    font-family: "DMSans-Medium",sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: .1px;
+    font-size: 16px;
+    color: #2e3039!important;
+}
+.total-revenue-number{
+    font-size: 32px;
+    font-weight: 700;
+    font-family: "DMSans-Medium",sans-serif;
+    line-height: 40px;
+    letter-spacing: .1px;
+    color: #141519!important;
+    margin-top: 8px!important;
+}
+.graphImage{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    vertical-align: middle;
+    border-style: none;
+}
+.absoluteMiddle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /*-webkit-transform: translate(-50%,-50%); */
+    transform: translate(-50%,-50%);
+    color: #000!important;
+}
+.text{
+    color: #000!important;
+    font-size: 32px!important;
+    text-align: center!important;
+}
+.para{
+    text-align: center!important;
+    font-size: 16px!important;
+}

@@ -1,0 +1,111 @@
+#brandDropdown{
+    width: 280px;
+    top: 66px;
+    left: 16px;
+    max-height: 386px;
+    overflow-y: scroll;
+    box-shadow: 0 4px 12px rgb(0 0 0 / 12%), 0 0 0 1px rgb(0 0 0 / 8%);
+    z-index: 9!important;
+    border-radius: 4px!important;
+    background-color: #fcfcfd!important;
+    position: absolute!important;
+}
+@font-face {
+    font-family: 'Inter-Regular';
+    src: url(../fonts/inter/Inter-Regular.otf);
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.box{
+    padding-right: 24px!important;
+    padding-left: 24px!important;
+   
+    padding-top: 16px!important;
+    align-items: center!important;
+    display: flex!important;
+
+}
+.dropdown-img{
+    width: 28px;
+    height: 28px;
+    box-shadow: rgb(223 225 230) 0px 0px 0px 1px;
+    border-radius: 40px!important;
+}
+.heading{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: "Inter-Regular";
+    font-style: normal;
+    letter-spacing: .1px;
+    color: #27323f!important;
+    margin-left: 8px!important;
+}
+.brands{
+    padding-right: 24px !important;
+    padding-left: 24px !important;
+    padding-top: 12px !important;
+   
+    align-items: center !important;
+    display: flex !important;
+}
+.sub-heading{
+    font-family: "Inter-Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: .1px;
+    color: #27323f!important;
+    margin-left: 8px!important;
+}
+.allBrands{
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+.smallBrand{
+    margin-top: 12px !important;
+    padding-bottom: 8px !important;
+}
+/*.brands{
+    text-decoration: none;
+}*/
+.caption{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    font-family: "Inter-Regular",sans-serif;
+    color: #41536c!important;
+    margin-left: 24px!important;
+    margin-bottom: 10px!important;
+    margin-top: 10px!important;
+}
+/*.otherBrands{
+    text-decoration: none;
+}*/
+.singleBrand{
+    cursor: pointer;
+    padding-right: 24px!important;
+    padding-left: 24px!important;
+    display: flex!important;
+}
+.image{
+    box-shadow: rgb(223 225 230) 0px 0px 0px 1px;
+    align-self: center;
+    border-radius: 40px!important;
+    vertical-align: middle;
+}
+.image-heading{
+    color: #27323f!important;
+    margin-left: 8px!important;
+    font-family: "Inter-Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: .1px;
+}

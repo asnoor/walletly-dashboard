@@ -1,0 +1,8 @@
+#main{
+    width: auto;
+    display: flex !important;
+}
+.side{
+    flex-direction: row !important;
+    display: flex !important;
+}
